@@ -71,7 +71,7 @@ let seq = new Tone.Loop(() => {
   if (step === 16) {
     step = 0;
   }
-  rect(step * 19, 20, 20, 135, 10);
+  rect(step * 19, 140, 20, 35, 10);
 
   if (steps[step][0].checked()) {
     console.log("first step");
